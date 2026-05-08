@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Streaming Build",
+    "CPU": "AMD Ryzen 5 7600",
+    "GPU": "Nvidia RTX 4060",
+    "RAM": "16GB DDR5",
+    "description": "Great for playing games at 1080p while streaming to Twitch or YouTube without any lag."
+  },
+  {
+    "title": "Video Editing Build",
+    "CPU": "Intel Core i5-13600K",
+    "GPU": "Nvidia RTX 3060 12GB",
+    "RAM": "32GB DDR5",
+    "description": "Has extra RAM and video memory to handle 4K timeline rendering in Premiere Pro smoothly."
+  },
+  {
+    "title": "Coding & Dev Build",
+    "CPU": "Intel Core i5-12400F",
+    "GPU": "Nvidia GTX 1650",
+    "RAM": "16GB DDR4",
+    "description": "A solid budget option. easily handles code compilation, VS Code, and running a bunch of browser tabs."
+  }
+]
