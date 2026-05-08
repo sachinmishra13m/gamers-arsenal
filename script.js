@@ -43,3 +43,19 @@ fetch('https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15')
             dealsContainer.appendChild(card);
         });
     });
+
+document.getElementById('subscribe-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const emailInput = document.getElementById('email-input').value;
+    const messageDisplay = document.getElementById('form-message');
+
+    if (emailInput.includes('@') && emailInput.includes('.')) {
+        messageDisplay.style.color = '#00ff88';
+        messageDisplay.innerText = "Success! You've joined the Arsenal.";
+        this.reset();
+    } else {
+        messageDisplay.style.color = 'red';
+        messageDisplay.innerText = "Please enter a valid email address.";
+    }
+});
